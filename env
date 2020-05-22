@@ -1,0 +1,28 @@
+APP_DEBUG=true
+; DEBUG_COOKIE="XDEBUG_SESSION=PHPSTORM" // to use DEBUG_COOKIE you must set CORS_ORIGIN
+; CORS_ORIGIN="http://localhost:3000" // By default: * - all wildcard 
+
+// leave empty if PUBLIC located in Site-Root
+ROOT_PUBLIC_DIR=/dapi
+
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=memoria
+DB_USERNAME=sa_web
+DB_PASSWORD=web
+
+DB_LOGO_GLOB_HOST=db.cerebrohq.com
+DB_LOGO_GLOB_PORT=5434
+DB_LOGO_GLOB_DATABASE=login_global
+DB_LOGO_GLOB_USERNAME=sa_web
+DB_LOGO_GLOB_PASSWORD=web
+
+DB_LOGO_LOC_HOST=127.0.0.1
+DB_LOGO_LOC_PORT=5432
+DB_LOGO_LOC_DATABASE=memoria_logo_loca
+DB_LOGO_LOC_USERNAME=sa_web
+DB_LOGO_LOC_PASSWORD=
+
+; THUMB_CACHE_DIR=/some/dir
+; THUMB_CACHE_RECHECK=3600 ; one hour
+; THUMB_MAX_SIZE=512
